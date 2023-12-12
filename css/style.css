@@ -1,6 +1,6 @@
 body {
     font-family:"Montserrat";
-    background-color: #ffaf00;
+    background-color: lightblue;
     color: #405680;
 }
 
@@ -19,7 +19,7 @@ header {
 #hero, footer {
     color: #3062bf;
     border: 4px solid #0059ff;
-    background-color: #aa8639;
+    background-color: lightblue;
     text-align: center;
     padding: 10px;
 }
@@ -50,4 +50,34 @@ header {
 
 #gallery figure {
     text-align: center;
+}
+
+/*Literature*/
+
+#lit {
+    border: 10px solid navy;
+    margin-bottom: 2rem;
+}
+
+#lit div {
+    padding: 2rem;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+#lit div p {
+    padding: 0.3rem 0;
+    clear: both;
+}
+
+/* Dropcaps*/
+
+#lit div p:first-letter {
+    color:red;
+    float:left;
+    font-size: 3em;
+    padding: .25em;
+    margin-right: .25em;
+    line-height: .65;
+    border: 1px solid black;
 }
