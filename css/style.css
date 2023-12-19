@@ -134,3 +134,8 @@ header {
         display: block;
     }
 }
+/* Contact Form */
+
+#formElements {
+    display:grid;
+}
