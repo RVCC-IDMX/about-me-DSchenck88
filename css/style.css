@@ -29,6 +29,8 @@ header {
     padding-bottom: 15px;
 }
 
+/* Nav Bar Styling */
+
 .nav-toggle {
     display: none;
 }
@@ -41,6 +43,7 @@ header {
     display: flex;
     align-items: center;
 }
+/* Hamburger Icon */
 
 .nav-toggle-label span,
 .nav-toggle-label span::before,
@@ -274,6 +277,8 @@ legend {
     width:50%;
     justify-self: center;
 }
+
+/* Nav Bar Large Screen Styling */
 
 @media screen and (min-width: 800px) {
     .nav-toggle-label {
